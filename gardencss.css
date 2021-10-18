@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+img{
+	position:absolute;
+}
+
+body, html{
+	padding :0;
+	margin:0;
+	height:100%;
+	width:100%;
+}
+.background {
+	height:729px;
+	width:1344px;
+}
+
+.flowerzoom{
+	left: 1000px;
+	top:400px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.3;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.flowerzoom:hover{
+	opacity:1;
+
+	transform: scale(9,9);
+}
+
+.mtngoat{
+	left: 760px;
+	top:165px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.2;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.mtngoat:hover{
+	opacity:1;
+
+	transform: scale(9,9);
+}
+
+
+
+.mice{
+	left: 390px;
+	top:615px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.2;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.mice:hover{
+	opacity:1;
+	top: 470px;
+	transform: scale(9,9);
+}
+
+.bee{
+	left: 520px;
+	top:450px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.2;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.bee:hover{
+	opacity:1;
+	transform: scale(9,9);
+}
+
+.bird{
+	left: 50px;
+	top:350px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.2;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.bird:hover{
+	opacity:1;
+	left:180px;
+	transform: scale(9,9);
+}
+
+.house{
+	left: 560px;
+	top:350px;
+	
+	height: 50px;
+	width: 50px;
+	
+	opacity:.2;
+	transition: opacity 7s, ease-out 5s ;
+	
+}
+
+.house:hover{
+	opacity:1;
+	transform: scale(9,9);
+}
+
+.audio{
+	opacity:.5;
+	left:400px;
+	top: 15px;
+}
